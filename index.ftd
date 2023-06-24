@@ -1,40 +1,83 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #eee
+align-content: center
+spacing.fixed.px: 20
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
-
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
-
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
 
 
--- ds.h3: 🎯 Used by?
 
-Our all documentation sites uses this `doc-site` theme.
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
 
--- ds.h2: Learn fastn and become a pro?
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
 
--- end: ds.page
+
+
+
+-- component card:
+
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px: 350
+background.solid: #c5dff5
+align-content: center
+border-width.px: 5
+padding.px: 20
+spacing.fixed.px: 50
+border-radius.px: 20
+
+-- ftd.image:
+src: https://w0.peakpx.com/wallpaper/861/211/HD-wallpaper-girl-road-transition-sakura-live-anime-art-thumbnail.jpg
+height: fill-container
+border-radius.px: 20
+
+
+-- ftd.column:
+
+-- ftd.text: Ayush Chaturvedi
+role: $inherited.types.heading-medium
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
+
+lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum 
+lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum 
+lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum 
+ 
+
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: card
+
+
+
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #eee
+spacing.fixed.px: 20
+align-content: center
+
+-- card:
+
+-- end: ftd.column
+
+-- ftd.row:
+width: fill-container
+height: fill-container
+background.solid: #eee
+spacing.fixed.px: 20
+align-content: center		
+
+-- end: ftd.row
+
+
+
+
+		
